@@ -19,6 +19,10 @@
 		A0FBD3AB224140B300E08669 /* Nunu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3AA224140B300E08669 /* Nunu.jpeg */; };
 		A0FBD3AD224140BD00E08669 /* Lui.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3AC224140BD00E08669 /* Lui.jpeg */; };
 		A0FBD3AF224140C300E08669 /* White.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3AE224140C300E08669 /* White.jpeg */; };
+		A0FBD3B122425D5100E08669 /* CatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBD3B022425D5100E08669 /* CatDetailViewController.swift */; };
+		A0FBD3B32242882300E08669 /* Romyo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3B22242882300E08669 /* Romyo.jpeg */; };
+		A0FBD3B622428A9600E08669 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FBD3B522428A9600E08669 /* MapKit.framework */; };
+		A0FBD3B822428AD000E08669 /* DetailLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBD3B722428AD000E08669 /* DetailLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		A0FBD3AA224140B300E08669 /* Nunu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nunu.jpeg; sourceTree = "<group>"; };
 		A0FBD3AC224140BD00E08669 /* Lui.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lui.jpeg; sourceTree = "<group>"; };
 		A0FBD3AE224140C300E08669 /* White.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = White.jpeg; sourceTree = "<group>"; };
+		A0FBD3B022425D5100E08669 /* CatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailViewController.swift; sourceTree = "<group>"; };
+		A0FBD3B22242882300E08669 /* Romyo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Romyo.jpeg; sourceTree = "<group>"; };
+		A0FBD3B522428A9600E08669 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A0FBD3B722428AD000E08669 /* DetailLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FBD3B622428A9600E08669 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			children = (
 				A001BBF1223FEE4B001B4642 /* CatLocation */,
 				A001BBF0223FEE4B001B4642 /* Products */,
+				A0FBD3B422428A9600E08669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +95,10 @@
 			children = (
 				A0FBD3A9224140A000E08669 /* Resources */,
 				A001BC07223FEF5C001B4642 /* CatListViewController.swift */,
+				A0FBD3B722428AD000E08669 /* DetailLocationViewController.swift */,
 				A001BC09223FF000001B4642 /* CatVO.swift */,
 				A0FBD3A6224137E000E08669 /* CatCell.swift */,
+				A0FBD3B022425D5100E08669 /* CatDetailViewController.swift */,
 			);
 			name = "고양이 테이블뷰";
 			path = "고양이 테이블뷰";
@@ -98,8 +110,17 @@
 				A0FBD3AA224140B300E08669 /* Nunu.jpeg */,
 				A0FBD3AC224140BD00E08669 /* Lui.jpeg */,
 				A0FBD3AE224140C300E08669 /* White.jpeg */,
+				A0FBD3B22242882300E08669 /* Romyo.jpeg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0FBD3B422428A9600E08669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0FBD3B522428A9600E08669 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +186,7 @@
 				A001BBFD223FEE4D001B4642 /* Assets.xcassets in Resources */,
 				A001BBF8223FEE4B001B4642 /* Main.storyboard in Resources */,
 				A0FBD3AB224140B300E08669 /* Nunu.jpeg in Resources */,
+				A0FBD3B32242882300E08669 /* Romyo.jpeg in Resources */,
 				A0FBD3AF224140C300E08669 /* White.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,11 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FBD3B822428AD000E08669 /* DetailLocationViewController.swift in Sources */,
 				A0FBD3A7224137E000E08669 /* CatCell.swift in Sources */,
 				A001BBF5223FEE4B001B4642 /* ViewController.swift in Sources */,
 				A001BC0A223FF000001B4642 /* CatVO.swift in Sources */,
 				A001BC08223FEF5C001B4642 /* CatListViewController.swift in Sources */,
 				A001BBF3223FEE4B001B4642 /* AppDelegate.swift in Sources */,
+				A0FBD3B122425D5100E08669 /* CatDetailViewController.swift in Sources */,
 				A001BBFB223FEE4B001B4642 /* CatLocation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Kiwook-Swift.CatLocation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Kiwook-Swift.CatLocation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
