@@ -15,6 +15,11 @@
 		A001BC00223FEE4D001B4642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001BBFE223FEE4D001B4642 /* LaunchScreen.storyboard */; };
 		A001BC08223FEF5C001B4642 /* CatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001BC07223FEF5C001B4642 /* CatListViewController.swift */; };
 		A001BC0A223FF000001B4642 /* CatVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001BC09223FF000001B4642 /* CatVO.swift */; };
+		A0689D782243802900B202B0 /* Myoni.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0689D772243802900B202B0 /* Myoni.jpeg */; };
+		A0689D7A2243802D00B202B0 /* Pring.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0689D792243802D00B202B0 /* Pring.jpeg */; };
+		A0689D7C2243803100B202B0 /* Yor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0689D7B2243803100B202B0 /* Yor.jpeg */; };
+		A0689D7E2243803600B202B0 /* Rir.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0689D7D2243803600B202B0 /* Rir.jpeg */; };
+		A0689D802243803F00B202B0 /* Yodi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0689D7F2243803F00B202B0 /* Yodi.jpeg */; };
 		A0FBD3A7224137E000E08669 /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBD3A6224137E000E08669 /* CatCell.swift */; };
 		A0FBD3AB224140B300E08669 /* Nunu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3AA224140B300E08669 /* Nunu.jpeg */; };
 		A0FBD3AD224140BD00E08669 /* Lui.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3AC224140BD00E08669 /* Lui.jpeg */; };
@@ -23,9 +28,11 @@
 		A0FBD3B32242882300E08669 /* Romyo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0FBD3B22242882300E08669 /* Romyo.jpeg */; };
 		A0FBD3B622428A9600E08669 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FBD3B522428A9600E08669 /* MapKit.framework */; };
 		A0FBD3B822428AD000E08669 /* DetailLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBD3B722428AD000E08669 /* DetailLocationViewController.swift */; };
+		BD217D44E2A6509303A0CB88 /* libPods-CatLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F554DEB71C5A869BB6E3FC2 /* libPods-CatLocation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F554DEB71C5A869BB6E3FC2 /* libPods-CatLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CatLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A001BBEF223FEE4B001B4642 /* CatLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A001BBF2223FEE4B001B4642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A001BBF4223FEE4B001B4642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,11 @@
 		A001BC01223FEE4D001B4642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001BC07223FEF5C001B4642 /* CatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListViewController.swift; sourceTree = "<group>"; };
 		A001BC09223FF000001B4642 /* CatVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatVO.swift; sourceTree = "<group>"; };
+		A0689D772243802900B202B0 /* Myoni.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Myoni.jpeg; sourceTree = "<group>"; };
+		A0689D792243802D00B202B0 /* Pring.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pring.jpeg; sourceTree = "<group>"; };
+		A0689D7B2243803100B202B0 /* Yor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yor.jpeg; sourceTree = "<group>"; };
+		A0689D7D2243803600B202B0 /* Rir.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rir.jpeg; sourceTree = "<group>"; };
+		A0689D7F2243803F00B202B0 /* Yodi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yodi.jpeg; sourceTree = "<group>"; };
 		A0FBD3A6224137E000E08669 /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
 		A0FBD3AA224140B300E08669 /* Nunu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nunu.jpeg; sourceTree = "<group>"; };
 		A0FBD3AC224140BD00E08669 /* Lui.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lui.jpeg; sourceTree = "<group>"; };
@@ -44,6 +56,8 @@
 		A0FBD3B22242882300E08669 /* Romyo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Romyo.jpeg; sourceTree = "<group>"; };
 		A0FBD3B522428A9600E08669 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A0FBD3B722428AD000E08669 /* DetailLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLocationViewController.swift; sourceTree = "<group>"; };
+		C3CF32A01A3152A8116A14B8 /* Pods-CatLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatLocation.release.xcconfig"; path = "Target Support Files/Pods-CatLocation/Pods-CatLocation.release.xcconfig"; sourceTree = "<group>"; };
+		F5C8F3664BEEDCAF626D282B /* Pods-CatLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatLocation.debug.xcconfig"; path = "Target Support Files/Pods-CatLocation/Pods-CatLocation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0FBD3B622428A9600E08669 /* MapKit.framework in Frameworks */,
+				BD217D44E2A6509303A0CB88 /* libPods-CatLocation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +79,7 @@
 				A001BBF1223FEE4B001B4642 /* CatLocation */,
 				A001BBF0223FEE4B001B4642 /* Products */,
 				A0FBD3B422428A9600E08669 /* Frameworks */,
+				A06D0F421D798C627B66E2FF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +94,7 @@
 		A001BBF1223FEE4B001B4642 /* CatLocation */ = {
 			isa = PBXGroup;
 			children = (
+				A0FBD3A9224140A000E08669 /* Resources */,
 				A0FBD3A8224139C800E08669 /* 고양이 테이블뷰 */,
 				A001BBF2223FEE4B001B4642 /* AppDelegate.swift */,
 				A001BBF4223FEE4B001B4642 /* ViewController.swift */,
@@ -90,10 +107,18 @@
 			path = CatLocation;
 			sourceTree = "<group>";
 		};
+		A06D0F421D798C627B66E2FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8F3664BEEDCAF626D282B /* Pods-CatLocation.debug.xcconfig */,
+				C3CF32A01A3152A8116A14B8 /* Pods-CatLocation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A0FBD3A8224139C800E08669 /* 고양이 테이블뷰 */ = {
 			isa = PBXGroup;
 			children = (
-				A0FBD3A9224140A000E08669 /* Resources */,
 				A001BC07223FEF5C001B4642 /* CatListViewController.swift */,
 				A0FBD3B722428AD000E08669 /* DetailLocationViewController.swift */,
 				A001BC09223FF000001B4642 /* CatVO.swift */,
@@ -108,7 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				A0FBD3AA224140B300E08669 /* Nunu.jpeg */,
+				A0689D792243802D00B202B0 /* Pring.jpeg */,
 				A0FBD3AC224140BD00E08669 /* Lui.jpeg */,
+				A0689D7D2243803600B202B0 /* Rir.jpeg */,
+				A0689D7F2243803F00B202B0 /* Yodi.jpeg */,
+				A0689D7B2243803100B202B0 /* Yor.jpeg */,
+				A0689D772243802900B202B0 /* Myoni.jpeg */,
 				A0FBD3AE224140C300E08669 /* White.jpeg */,
 				A0FBD3B22242882300E08669 /* Romyo.jpeg */,
 			);
@@ -119,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				A0FBD3B522428A9600E08669 /* MapKit.framework */,
+				7F554DEB71C5A869BB6E3FC2 /* libPods-CatLocation.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A001BC04223FEE4D001B4642 /* Build configuration list for PBXNativeTarget "CatLocation" */;
 			buildPhases = (
+				A5A3567B244782003C8451BC /* [CP] Check Pods Manifest.lock */,
 				A001BBEB223FEE4B001B4642 /* Sources */,
 				A001BBEC223FEE4B001B4642 /* Frameworks */,
 				A001BBED223FEE4B001B4642 /* Resources */,
+				65DECE0A7C3FE1E48FAA9573 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,15 +216,69 @@
 			files = (
 				A001BC00223FEE4D001B4642 /* LaunchScreen.storyboard in Resources */,
 				A0FBD3AD224140BD00E08669 /* Lui.jpeg in Resources */,
+				A0689D782243802900B202B0 /* Myoni.jpeg in Resources */,
 				A001BBFD223FEE4D001B4642 /* Assets.xcassets in Resources */,
+				A0689D7A2243802D00B202B0 /* Pring.jpeg in Resources */,
 				A001BBF8223FEE4B001B4642 /* Main.storyboard in Resources */,
+				A0689D7E2243803600B202B0 /* Rir.jpeg in Resources */,
+				A0689D7C2243803100B202B0 /* Yor.jpeg in Resources */,
 				A0FBD3AB224140B300E08669 /* Nunu.jpeg in Resources */,
 				A0FBD3B32242882300E08669 /* Romyo.jpeg in Resources */,
+				A0689D802243803F00B202B0 /* Yodi.jpeg in Resources */,
 				A0FBD3AF224140C300E08669 /* White.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65DECE0A7C3FE1E48FAA9573 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatLocation/Pods-CatLocation-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatLocation/Pods-CatLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A3567B244782003C8451BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatLocation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A001BBEB223FEE4B001B4642 /* Sources */ = {
@@ -349,11 +436,13 @@
 		};
 		A001BC05223FEE4D001B4642 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C8F3664BEEDCAF626D282B /* Pods-CatLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HZ26D79YNZ;
 				INFOPLIST_FILE = CatLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,11 +456,13 @@
 		};
 		A001BC06223FEE4D001B4642 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CF32A01A3152A8116A14B8 /* Pods-CatLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HZ26D79YNZ;
 				INFOPLIST_FILE = CatLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
